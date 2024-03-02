@@ -1,0 +1,20 @@
+.peach {
+    background-color: #e9967a;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#blue {
+    color: #0000ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.peach.cool {
+    font-size: 24px;
+}
+
+#green {
+    background-color: #a9f13c;
+    font-weight: 700;
+    font-size: 24px;
+}
