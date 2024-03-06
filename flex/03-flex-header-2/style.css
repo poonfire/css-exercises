@@ -14,12 +14,14 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   padding: 8px;
+  justify-content: space-between;
 }
 
 .left, div ul {
   display: flex;
   padding: 0;
   margin-right: auto;
+  align-items: center;
 }
 
 .right, button div {
@@ -60,8 +62,10 @@ a {
 
 ul {
   list-style-type: none;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-li {
-  margin: 0 5px;
-}
+
