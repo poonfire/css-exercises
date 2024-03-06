@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 .information {
@@ -12,7 +13,6 @@ body {
 img {
   width: 100px;
   height: 100px;
-  margin: 0 40px;
 }
 
 .title {
@@ -29,8 +29,7 @@ img {
 }
 
 .barberry, .chili, .pepper, .saffron {
-  flex: 0 1 200px;
-  justify-content: center;
+  max-width: 200px;
 }
 
 
