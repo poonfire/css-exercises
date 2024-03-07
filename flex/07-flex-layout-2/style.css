@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  max-width: 300px;
   background: royalblue;
   box-sizing: border-box;
 }
@@ -26,4 +26,73 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* added */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 10px auto 10px 10px;
+}
+
+.middle {
+  display: flex;
+  flex: 1;
+}
+
+.point {
+  margin: 15px;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 0 0 200px;
+  padding: 15px;
+  min-height: 250px;
+  min-width: 250px;
+}
+
+.sidebar {
+  /*
+  min-width: 200px;
+  display: flex;
+  */
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+
+}
+
+.foot-text {
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  justify-content: flex-start;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
 }
